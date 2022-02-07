@@ -1,0 +1,29 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+  padding: 5rem;
+}
+
+input {
+  margin: 1rem 0;
+}
+
+.btn {
+  display: block;
+  margin: 1rem 0;
+  border: 1px solid blue;
+  cursor: pointer;
+}
